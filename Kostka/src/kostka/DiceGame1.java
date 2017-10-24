@@ -15,7 +15,7 @@ public class DiceGame1 {
             System.out.println("Wylosowane: " + number);
 
             guess = player.guess();
-            System.out.println("Strzela " + player.getName() + ": " + guess);
+            System.out.println("Wybór gracza " + player.getName() + ": " + guess);
 
             if (number == guess) {
                 System.out.println("BRAWO!");
